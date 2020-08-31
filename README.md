@@ -1,3 +1,5 @@
+配置型脚手架，将页面写成页面组件，里面内容有配置文件导入，提高页面复用率几扩展性
+
 ### 开始
 项目框架
 * [create-app-react](https://www.html.cn/create-react-app/docs/getting-started/)
