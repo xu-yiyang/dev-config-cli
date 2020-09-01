@@ -37,11 +37,6 @@ export const isProd = process.env.REACT_APP_ENV === 'production'
 // 获取当前环境
 export const getEnv = process.env.REACT_APP_ENV
 
-// 获取当前用户信息
-export const getUserInfo = () => {
-  return JSON.parse(localStorage.getItem('userInfo'))
-}
-
 export const toThousands = (num,result) => {
   result = result || '';
   if(num>=1000){
