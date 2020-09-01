@@ -42,21 +42,6 @@ export const getUserInfo = () => {
   return JSON.parse(localStorage.getItem('userInfo'))
 }
 
-// 获取当前token
-export const getToken = () => {
-  return localStorage.getItem('token')
-}
-// 获取当前token
-export const getCookie = () => {
-  let cookie = document.cookie.split(';');
-  let obj = {};
-  for (let item of cookie) {
-    // join数组转为字符串 trim去除字符串两边的空白符
-    let arr = item.split('=').join().trim().split(','); obj[arr[0]] = arr[1];
-  }
-  return obj
-}
-
 export const toThousands = (num,result) => {
   result = result || '';
   if(num>=1000){
