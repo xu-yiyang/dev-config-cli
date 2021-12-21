@@ -22,6 +22,7 @@ class Home extends Component {
 
   render() {
     console.log(this.props);
+    console.log(this.context);
     return (
       <Wrap>
         <br/>
