@@ -37,7 +37,7 @@ export const stateThunkFactory = stepId => params => {
 }
 
 export const commitExternalData = (stepId, params = null) => {
-  return axios.post(`${stepId}`, params)
+  return ins.post(`${stepId}`, params)
 }
 
 export {
